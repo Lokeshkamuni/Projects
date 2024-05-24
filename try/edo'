@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div class="page">
+        <div class="container">
+          <div class="left bg-black">
+            <div class="top bg-grey">
+              <div class="logo">
+                <img class="invert" src="logo.svg" alt="spotify-logo" />
+              </div>
+              <ul>
+                <li class="home flex align-items-center gap">
+                  <img class="invert icon" src="home.svg" alt="Home-icon" />Home
+                </li>
+                <li class="search flex align-items-center gap">
+                  <img
+                    src="search-icon.svg"
+                    class="invert icon"
+                    alt="Search-icon"
+                  />Search
+                </li>
+              </ul>
+            </div>
+    
+            <div class="left-rem bg-grey">
+              <div class="middle ">
+                <div class="library-outer">
+                  <div class="library flex gap">
+                    <img
+                      src="library-icon.svg"
+                      class="invert icon"
+                      alt="library-icon"
+                    />Your Library
+                  </div>
+                  <img
+                    src="add-icon.svg"
+                    class="invert add"
+                    height="15px"
+                    alt="add-icon"
+                  />
+      
+                </div>
+                <div class="playlist bg-l-grey">
+                  <p>Create your first playlist</p>
+                  It's easy, we'll help you
+                  <div class="create-playlist-button">
+                    <button>Create playlist</button>
+                  </div>
+                </div>
+                <div class="your-songs">
+                    
+                </div>
+                <div class="footer bg-grey">
+                  <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                  <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                  ><span>Safety &amp; Privacy Center</span></a
+                >
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                  ><span>Privacy Policy</span></a
+                >
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                  ><span>Cookies</span></a
+                >
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                  ><span>About Ads</span></a
+                >
+                <a href="https://www.spotify.com/in-en/accessibility/"
+                  ><span>Accessibility</span></a
+                >
+              </div>
+              </div>
+                
+                
+                
+            </div>
+          </div>
+          <div class="right" style="background-color: black">
+            <div class="topbar">
+              <div class="arrows">
+                <button>
+                  <i class="fa-solid fa-less-than"></i>
+                </button>
+                <button >
+                  <i class="fa-solid fa-greater-than"></i>
+                </button>
+              </div>
+              <div class="sign-up">
+                <button>Sign up</button>
+                <div class="log-in ">
+                  <button>
+                    Log in
+                  </button>
+                </div>
+              </div>
+            </div>
+    
+            <div class="right-2">
+              <div class="spotify-playlist">
+                <h3>Spotify Playlists</h3>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div> 
+                  
+                </div>
+              </div>
+            </div>
+            <div class="playbar">
+              <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+              </div>
+              <div class="song-buttons">
+                <img class="prev-song" src="prevsong.svg" alt="prevsong">
+                <div class="play-song">
+
+                </div>
+                <img class="next-song" src="nextsong.svg" alt="nextsong">
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>  
+      <!-- <div class="page-bottom">
+        <div class="bottom-content">
+          <div class="p1">Preview of Spotify</div>
+          <div class="p2">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</div>
+        </div>
+        <button>Sign up free</button>
+      </div> -->
+    </div>
+
+
+    <script
+      src="https://kit.fontawesome.com/8621ac756a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+
+
+<!-- Code with all the svgs not in a svg folder but directly in the spotify folder -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div class="page">
+        <div class="container">
+          <div class="left bg-black">
+            <div class="top bg-grey">
+              <div class="logo">
+                <img class="invert" src="logo.svg" alt="spotify-logo" />
+              </div>
+              <ul>
+                <li class="home flex align-items-center gap">
+                  <img class="invert icon" src="home.svg" alt="Home-icon" />Home
+                </li>
+                <li class="search flex align-items-center gap">
+                  <img
+                    src="search-icon.svg"
+                    class="invert icon"
+                    alt="Search-icon"
+                  />Search
+                </li>
+              </ul>
+            </div>
+    
+            <div class="left-rem bg-grey">
+              <div class="middle ">
+                <div class="library-outer">
+                  <div class="library flex gap">
+                    <img
+                      src="library-icon.svg"
+                      class="invert icon"
+                      alt="library-icon"
+                    />Your Songs
+                  </div>
+                  <img
+                    src="add-icon.svg"
+                    class="invert add"
+                    height="15px"
+                    alt="add-icon"
+                  />
+      
+                </div>
+                <div class="songs">
+                    <ul>
+                      <!-- <li>
+                        <img src="music.svg" alt="">
+                        <div class="song-info">
+                          <div >Song name</div>
+                          <div >Artist name</div>
+                        </div>
+                        <div class="play-now">
+                          <span>Play Now</span>
+                          <img class="invert" src="play.svg" alt="play-button">
+                        </div>
+                      </li> -->
+
+                    </ul>
+                </div>
+                <div class="footer bg-grey">
+                  <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                  <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                  ><span>Safety &amp; Privacy Center</span></a
+                >
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                  ><span>Privacy Policy</span></a
+                >
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                  ><span>Cookies</span></a
+                >
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                  ><span>About Ads</span></a
+                >
+                <a href="https://www.spotify.com/in-en/accessibility/"
+                  ><span>Accessibility</span></a
+                >
+              </div>
+              </div>
+                
+                
+                
+            </div>
+          </div>
+          <div class="right" style="background-color: black">
+            <div class="topbar">
+              <div class="arrows">
+                <button>
+                  <i class="fa-solid fa-less-than"></i>
+                </button>
+                <button >
+                  <i class="fa-solid fa-greater-than"></i>
+                </button>
+              </div>
+              <div class="sign-up">
+                <button>Sign up</button>
+                <div class="log-in ">
+                  <button>
+                    Log in
+                  </button>
+                </div>
+              </div>
+            </div>
+    
+            <div class="right-2">
+              <div class="spotify-playlist">
+                <h3>Spotify Playlists</h3>
+                <div class="card-container">
+                  <!-- <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="playlist1">
+                    <h3>Happy Hits!</h3>
+                    <p>Hits to boost your mood and fill you with happiness</p>
+                    <div class="play">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="black">
+                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                    </div>
+                  </div>  -->
+                  
+                </div>
+              </div>
+            </div>
+            <div class="playbar">
+              <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+              </div>
+              <div class="playbar-part2">
+              <div class="song-name-playbar">
+
+              </div>
+              <div class="song-buttons ">
+                <img class="prev-song" src="prevsong.svg" alt="prevsong">
+                <div class="play-song">
+
+                </div>
+                <img class="next-song" src="nextsong.svg" alt="nextsong">
+
+              </div>
+              <div class="song-duration-playbar">
+
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>  
+      <!-- <div class="page-bottom">
+        <div class="bottom-content">
+          <div class="p1">Preview of Spotify</div>
+          <div class="p2">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</div>
+        </div>
+        <button>Sign up free</button>
+      </div> -->
+    </div>
+
+
+    <script
+      src="https://kit.fontawesome.com/8621ac756a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

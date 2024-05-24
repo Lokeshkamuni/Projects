@@ -1,0 +1,639 @@
+
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}
+
+body{
+    color:white;
+    font-size: 16px;
+    background-color: black; 
+    font-family: sans-serif;
+
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+    gap:5px;
+
+}
+.left{
+    font-weight: 550;
+    margin-right:5px;
+    width: 360px;
+    /* max-width: 360px; */
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left-rem{
+    flex:1
+}
+.right{
+    flex:1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
+}
+
+.icon{
+    height:25px;
+    width:25px;
+}
+
+.logo{
+    padding-top:20px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cross{
+    cursor: pointer;
+    display: none;
+}
+
+.top ul li {
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer; 
+    transition: text-decoration 0.5s ease-in-out;
+}
+.top ul li:hover {
+    text-decoration: underline;
+}
+
+
+.top ul{
+    padding-bottom:10px;
+    margin:5px 0px;
+}
+
+.gap{
+    gap:20px;
+}
+
+
+.top{
+    margin:7px 0px 7px 7px;
+}
+
+.library{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+    
+}
+.library-outer {
+    margin:5px 0px 5px 5px;
+    /* margin: 7px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 20px 15px 0px;
+    font-size: 15px;   
+}
+
+.playlist{
+    margin: 10px;
+    padding: 20px 10px 15px 25px;
+    font-size:16px;
+    font-weight: 500;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    height:fit-content;
+}
+
+.playlist p button{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.create-playlist-button{
+    margin-top:15px;
+}
+
+.create-playlist-button>button{
+        border-radius:20px;
+        padding: 10px;
+}
+
+.left-rem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+.footer{
+    /* position: absolute;
+    bottom:0; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap:20px;
+    padding:20px 35px;
+    margin:5px;
+}
+
+.footer a {
+    color:#aaa7a7;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+
+.topbar{
+    /* background-color: (0,0,0); */    
+    background-color: rgb(11, 11, 11);
+    margin:5px 5px 0px 0px;
+    padding:7px 30px 5px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:grey;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows{
+    display: flex;
+    gap:10px;
+}
+
+.arrows button{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    text-align: center;
+    color:grey;
+    border:1px solid black;
+    background-color: black;
+    cursor:pointer;
+}
+
+.arrows button:hover{
+    color:white;
+    background-color: rgb(51, 50, 50);
+}
+
+.hamburger{
+    display: none;
+    height:40px;
+    width:40px;
+    /* border-radius:50%; */
+    text-align: center;
+    color:grey;
+    border:1px solid black;
+    background-color: black;
+    cursor:pointer;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.sign-up button{
+    font-size: 15px;
+    background-color: transparent;
+    color:grey;
+    border: 0px;
+    cursor:pointer;
+    font-weight: 650;
+}
+
+.sign-up button:hover{
+    color:white;
+    font-size: medium;
+}
+.log-in button{
+    /* width:110px;
+    height: 50px;
+    background-color: white;
+    color:black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5px;
+    transform: translateY(5px); */
+    border-radius: 30px;
+    height: 50px;
+    width:110px;
+    background-color: white;
+    color:black;
+
+}
+
+.log-in button:hover{
+    background-color: rgb(224, 224, 224);
+    font-size:medium
+}
+
+.right-2{
+    flex:1;
+    background-color: rgb(26, 25, 25);
+    margin:0px 10px 5px 0px;
+    /* border-radius:10px; */
+    padding:20px;
+    padding-right:2px;
+    
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.page-bottom{
+    /* background-color: rgb(107, 34, 132); */
+    font-weight:550;
+    background-image: -webkit-gradient(linear, left top, right top, from(#af2896), to(#509bf5));
+    margin:7px;
+    padding:10px 30px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-content{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.page-bottom button{
+    background-color:white;
+    padding:15px 30px;
+    border-radius: 30px;
+    border:0;
+}
+
+
+/* Making the playlists */
+.card-container{
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+    height:65vh;
+    overflow-y: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:250px;
+    padding: 10px;
+    width:165px;
+    background-color: rgb(11, 11, 11, 0.07);
+     border-radius: 5px;
+}
+.card img{
+   
+   height:60%; 
+   width:100%;
+    object-fit:cover;  
+}
+
+.card *{
+    padding-top:5px;
+    font-size: 14px
+    
+}
+
+.card h2{
+    font-size:20px;
+}
+
+
+
+.play{
+    position: relative;
+    z-index: -1;
+    cursor:pointer;
+}
+
+.play svg {
+    display: flex;
+    background-color: #1DB954;
+    border-radius: 50%;
+    padding: 15px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    
+}
+
+.card:hover{
+    .play{
+        z-index: 1;
+        bottom: 100px;
+        right: 10px;
+    }
+    background-color: rgb(55, 54, 54);;
+}
+
+
+/* creating playbar */
+
+.playbar{
+    /* position: absolute;
+    bottom:0; */
+    border-radius:5px;
+    background-color: rgb(15, 19, 16);
+    color:rgb(226, 220, 220);
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+
+    
+}
+/* .song-name-playbar{
+    width:150px;
+} */
+.playbar-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    gap:15px;
+    padding:0px 5%;
+    color:rgb(236, 228, 228);
+    font-weight: bolder;
+}
+
+.time-bar{
+    
+    width:0%;
+    height:100%;
+    background-color: rgb(57, 157, 57);
+}
+
+.song-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.play-song, .song-buttons img {
+    cursor: pointer;
+}
+
+/* .prev-song{
+    cursor: pointer;
+}
+
+.next-song{
+    cursor: pointer;
+} */
+.seekbar{
+    position:relative;
+}
+.bar{
+    height:5px;
+    width:100%;
+    background-color: aliceblue;
+    /* border: 2px solid black; */
+    border-radius:7px;
+    cursor:pointer;
+}
+
+.circle{
+    background-color: black;
+    height:10px;
+    width:10px; 
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3px;
+}
+
+
+.volume-and-duration{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume{
+    /* border:2px solid white; */
+    width:130px;
+    height: 4px;
+    background-color: white;
+    border-radius:4px;
+    position: relative;
+    cursor: pointer;
+    bottom:2px;
+    /* visibility: hidden; */
+    
+}
+
+.song-duration-playbar{
+    width:90px;
+}
+
+.volume-icon{
+    cursor:pointer
+}
+
+.volume-icon:hover{
+    .volume{
+        visibility: hidden;
+        height:40px;
+    }
+}
+
+.volume-circle{
+    background-color: black;
+    width:13px;
+    height: 13px;
+    border-radius: 50%;
+    position:relative;
+    left:100%;
+    z-index: 1;  
+}
+
+.rand{
+    background-color:rgb(57, 157, 57);
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+
+/* Styling Your Songs Playlist.......................................................  */
+
+.songs{
+    background-color:rgb(39, 36, 36);
+    border-radius: 5px;
+    margin:10px;
+    overflow-y: auto;
+    height: 48vh;
+    padding:10px
+}
+
+/* .songs ul{
+    
+    /*list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:10px; *'/
+} */
+
+.songs ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
+    padding: 10px 10px;
+    border:1px solid white;
+    margin:7px 5px;
+    font-size: small;
+    min-height: 50px;
+    cursor:pointer;
+}
+
+.songs ul li:hover{
+    background-color: rgb(18, 18, 18);
+    border:3px solid white;
+    font-size: 14px;
+}
+
+.songs ul li .song-info *{
+    color:rgb(239, 243, 239);
+    padding:3px;
+}
+
+.song-link{
+    display: none;
+}
+
+.play-now{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.play-now span{
+    font-size: smaller;
+    width:70px;
+}
+
+
+@media  (max-width:1000px){
+    .left{
+        position: absolute;
+        left: -150%;
+        z-index: 1;
+        /* transition: all 0.5s; */
+        width:100vw;
+        max-height: 100vh;
+        min-width: 360px;
+    }
+    
+    .songs{
+        height: 54vh;
+    }
+
+    .right{
+        height: 100vh;
+    }
+
+    .hamburger{
+        display: block;
+    }   
+}
+
+
+ @media (max-width:640px){
+
+    .sign-up{
+        font-size: 12px;
+    }
+    .card-container{
+        height: 56vh;
+        /* grid-template-columns: repeat(auto-fill, minmax(170px, 170px)); */
+    }
+    .card{
+        height: 200px;
+        width:125px;
+    }
+
+    .playbar-part2{
+        flex-direction: column;
+        gap:5px;
+
+    }
+}
+
+@media (max-width:540px){
+
+    .topbar{
+        padding:7px 10px 5px 10px;
+    }
+
+    .arrows{
+        margin-right:10px;
+    }
+    
+.sign-up{
+    gap:15px;
+  
+}
+
+.sign-up button{
+    
+    font-size: 13px;
+}
+
+.sign-up button:hover{
+    color:white;
+    font-size: 15px;
+}
+.log-in button{    
+    border-radius: 30px;
+    height: 50px;
+    width:110px;
+    background-color: white;
+    color:black;
+
+}
+
+.log-in button:hover{
+    background-color: rgb(224, 224, 224);
+    font-size:14px;
+}
+    .songs{
+        height: 50vh;
+    }
+}
+
+
+
+
+
